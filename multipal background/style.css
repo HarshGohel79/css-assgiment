@@ -1,0 +1,88 @@
+body *
+{
+    /* border: 1px solid white; */
+}
+body
+{
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+.main
+{
+    height: 640px;
+    width: 100%;
+    background: url(sky-clouds-4k-ja.jpg);
+    background-size: 100% 100%;
+    z-index: 1;
+}
+.sub1
+{
+    height: 640px;
+    width: 50%;
+    background-color: black;
+    position: relative;
+    text-align: right;
+    z-index: 2;
+}
+.sub2
+{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 3;
+}
+.s1
+{
+    font-size: 20px;
+    color: red;
+}
+.s2
+{
+    font-size: 30px;
+    color: skyblue;
+} 
+.round1
+{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 220px;
+    left: 620px;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.round2
+{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 380px;
+    left: 620px;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.round3
+{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 520px;
+    left: 620px;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+  
